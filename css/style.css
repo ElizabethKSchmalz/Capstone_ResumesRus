@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.sidebar {
+  border: 1px solid red;
+  height: 100%;
+  width: 10%;
+  position: fixed;
+  left: 0;
+}
+
+.header {
+  border: 1px solid blue;
+  height: 20%;
+  width: 100%;
+  margin-left: 10%;
+}
+
+.mainContent {
+  border: 1px solid green;
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  margin-left: 10%;
+}
+
+footer {
+  margin-left: 10%;
+  width: 100%;
+  border: 1px solid yellow;
+}
