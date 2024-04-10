@@ -8,6 +8,10 @@
 </head>
 <body>
 
+  <?php
+    require "dbConnect.php";
+  ?>
+
   <div class="wrapper">
 
     <div class="sidebar">
