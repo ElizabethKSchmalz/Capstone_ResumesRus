@@ -20,7 +20,7 @@
     </div>
 
     <div class="header">
-      <a href="#">Login</a>
+      <a href="login.php">Login</a>
       <a href="#">Make a Change</a>
       <a href="#">Tips</a>
       <a href="#">Cover Letter</a>
