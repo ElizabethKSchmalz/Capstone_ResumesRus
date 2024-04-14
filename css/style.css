@@ -45,6 +45,16 @@ html, body {
   
 }
 
+#tipsList {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#ideasList {
+  margin: 0 auto;
+  text-align: center;
+}
+
 footer {
   margin-left: 18%;
   width: 81.5%;
