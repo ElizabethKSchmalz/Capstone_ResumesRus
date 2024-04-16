@@ -42,6 +42,13 @@ CREATE TABLE `resumesrus` (
 
 LOCK TABLES `resumesrus` WRITE;
 /*!40000 ALTER TABLE `resumesrus` DISABLE KEYS */;
+INSERT INTO 'resumesrus' VALUES (1, 'Joe', 'Poppi','ForkLift driver', 'Wearhouse worker', 'jpoppi@yahoo.com', 'LittleHouse123', 867-5309),
+(2, 'Martha', 'Washington','Writer', 'Author', 'mwashington@yahoo.com', 'WhiteHouse123', 167-5309),
+(3, 'Abigail', 'Adams','Nurse', 'ER nurse', 'aadams@yahoo.com', 'MTVwillpower123', 267-5309),
+(4, 'Pasty', 'Jefferson','Farm Hand', 'Cowboy', 'pjefferson@yahoo.com', 'BackToNature123', 367-5309),
+(5, 'Dolley', 'Madison','Cop', 'Cop', 'dmadison@yahoo.com', 'TheThinBlueLine123', 467-5309),
+(6, 'Eddy', 'Smith','Office Assisant', 'Secreary', 'esmith@yahoo.com', 'FaxIsLife123', 567-5309),
+(7, 'Josh', 'Davis','CAD Drafter', 'CAD Designer', 'jdavis@yahoo.com', 'CADyoubeMorefunny123', 667-5309)
 /*!40000 ALTER TABLE `resumesrus` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
