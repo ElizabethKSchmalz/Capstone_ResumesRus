@@ -44,37 +44,25 @@
     </div>
 
     <div class="mainContent">
-      <div>
-        <h2>TOP TEN WAYS TO GET THE JOB</h2>
-        <ol>
-          <li>Dress like a bunny</li>
-          <li>Use dance moves to impress them</li>
-          <li>Eat a mummy</li>
-          <li>Wear shoes four sizes to big</li>
-        </ol>
-        <p>*Other fun information*</p>
-      </div>
-      <div>
-        <h3>How to get a SugarMama and other ways to fill in the job gap.</h3>
-        <p>Go where they go to wine and chocolate shops, start conversations. Once conversations happen try to make a friendship</p>
-      </div>
-      <div>
-        <h3>Advice Column</h3>
-        <p>How to tell your boss they are a whale</p>
-        <p>~~~~~~~~~~~~~~</p>
-        <p>~~~~~~~~~~~~~~</p>
-        <p>~~~~~~~~~~~~~~</p>
-        <p>~~~~~~~~~~~~~~</p>
-        <p>~~~~~~~~~~~~~~</p>
-        <p>~~~~~~~~~~~~~~</p>
-        <p>~~~~~~~~~~~~~~</p>
+
+      <div id="tipsList">
+        <h2>How to Make a Good Resume</h2>
+        <h3>-Do something</h3>
+        <h3>-Do a different something</h3>
+        <h3>-Do a slightly different something</h3>
+        <h3>-~~~~~~~~~~~~~~</h3>
+        <h3>-~~~~~~~~~~~~~~</h3>
+        <h3>-~~~~~~~~~~~~~~</h3>
+        <h3>-~~~~~~~~~~~~~~</h3>
+        <h3>-~~~~~~~~~~~~~~</h3>
+        <h3>-~~~~~~~~~~~~~~</h3>
+        <h3>-~~~~~~~~~~~~~~</h3>
+        <h3>-~~~~~~~~~~~~~~</h3>
+        <h3>-~~~~~~~~~~~~~~</h3>
+        <h3>-~~~~~~~~~~~~~~</h3>
       </div>
 
     </div>
-
-    <footer>
-      <h2>*Ads for how to be your best self*</h2>
-    </footer>
 
   </div>
 
