@@ -28,11 +28,8 @@ CREATE TABLE `resumesrus` (
   `user_id` int DEFAULT NULL,
   `firstName` varchar(50) DEFAULT NULL,
   `lastName` varchar(50) DEFAULT NULL,
-  `job` varchar(100) DEFAULT NULL,
-  `jobTitle` varchar(500) DEFAULT NULL,
   `email` varchar(50) DEFAULT NULL,
   `password` varchar(50) DEFAULT NULL,
-  `phoneNumber` varchar(15) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -42,6 +39,13 @@ CREATE TABLE `resumesrus` (
 
 LOCK TABLES `resumesrus` WRITE;
 /*!40000 ALTER TABLE `resumesrus` DISABLE KEYS */;
+INSERT INTO 'resumesrus' VALUES (1, 'Joe', 'Poppi','jpoppi@yahoo.com', 'LittleHouse123',),
+(2, 'Martha', 'Washington','mwashington@yahoo.com', 'WhiteHouse123'),
+(3, 'Abigail', 'Adams','aadams@yahoo.com', 'MTVwillpower123'),
+(4, 'Pasty', 'Jefferson', 'pjefferson@yahoo.com', 'BackToNature123'),
+(5, 'Dolley', 'Madison','dmadison@yahoo.com', 'TheThinBlueLine123'),
+(6, 'Eddy', 'Smith','esmith@yahoo.com', 'FaxIsLife123'),
+(7, 'Josh', 'Davis', 'jdavis@yahoo.com', 'CADyoubeMorefunny123')
 /*!40000 ALTER TABLE `resumesrus` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,6 +56,5 @@ UNLOCK TABLES;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2024-04-10 10:04:18
