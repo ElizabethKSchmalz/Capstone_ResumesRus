@@ -102,4 +102,11 @@ form button:hover {
   background-color: #3e8e41;
 }
 
+h2 {
+  text-align: center;
+  color: #A30000;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 2rem 2rem;
+}
+
 
