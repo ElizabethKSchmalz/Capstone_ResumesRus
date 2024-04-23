@@ -55,7 +55,7 @@ if (isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true) {
       <br>
       <a href="#">Make a Change</a>
       <a href="tips.php">Tips</a>
-      <a href="#">Cover Letter</a>
+      <a href="coverLetter.php">Cover Letter</a>
     </div>
 
     <div class="mainContent">
