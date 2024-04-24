@@ -109,6 +109,10 @@ h2 {
   margin: 2rem 2rem;
 }
 
+h3 {
+  margin: 2rem;
+}
+
 textarea {
   resize: none;
 }

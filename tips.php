@@ -61,20 +61,13 @@ if (isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true) {
     <div class="mainContent">
 
       <div id="tipsList">
-        <h2>How to Make a Good Resume</h2>
-        <h3>-Do something</h3>
-        <h3>-Do a different something</h3>
-        <h3>-Do a slightly different something</h3>
-        <h3>-~~~~~~~~~~~~~~</h3>
-        <h3>-~~~~~~~~~~~~~~</h3>
-        <h3>-~~~~~~~~~~~~~~</h3>
-        <h3>-~~~~~~~~~~~~~~</h3>
-        <h3>-~~~~~~~~~~~~~~</h3>
-        <h3>-~~~~~~~~~~~~~~</h3>
-        <h3>-~~~~~~~~~~~~~~</h3>
-        <h3>-~~~~~~~~~~~~~~</h3>
-        <h3>-~~~~~~~~~~~~~~</h3>
-        <h3>-~~~~~~~~~~~~~~</h3>
+        <h2>Tips to Make a Good Resume</h2>
+        <h3>-Be Concise. Limit the resume to one or two pages. Focus on the most important information that is relevant to the job you are applying for.</h3>
+        <h3>-Highlight your key skills. Make sure to showcase all skills relevant to the job.</h3>
+        <h3>-Carefully proofread. Make sure your resume is free of spelling and grammatical errors.</h3>
+        <h3>-Research the company. Tweak your resume and cover letter to align with the company's culture and values.</h3>
+        <h3>-Be Honest. Employers will easily detect inconsistencies.</h3>
+        <h3>-Seek feedback. Don't hesitate to get feedback from mentors or professionals.</h3>
       </div>
 
     </div>
