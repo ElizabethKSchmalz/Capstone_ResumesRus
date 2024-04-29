@@ -38,7 +38,7 @@ if (isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true) {
       <a href="resume.php">New Resume</a>
       <br>
       <br>
-      <a href="#">Thesaurus</a>
+      <a href="thesaurus.php">Thesaurus</a>
       <br>
       <br>
       <a href="#">Ideas for artful jobs</a>
