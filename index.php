@@ -10,7 +10,7 @@ if (isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true) {
     // User is not logged in 
     ?>
     <a href="login.php">Login</a>
-    <a href="signup.php">Sign Up</a>
+    <a href="signUp.php">Sign Up</a>
     <?php
 }
 ?>
