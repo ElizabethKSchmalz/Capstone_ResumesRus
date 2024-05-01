@@ -146,6 +146,11 @@ a {
   color: white;
 }
 
+a:hover {
+  text-decoration: none;
+  color: #cacaca;
+}
+
 textarea {
   resize: none;
 }
