@@ -77,7 +77,8 @@ if (isset($_POST['signupSubmit'])) {
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h2>Create your ResumesRUs account!</h2>
+    <a href="index.php"><h1 id="topLeftHeader">Resumes R Us</h1></a>
+    <h2>Create your <div id="logoFont">Resumes R Us</div> account!</h2>
 
     <form action="" method="post"> <label for="firstName">First Name:</label>
         <input type="text" name="firstName" id="firstName" required><br><br>
@@ -94,7 +95,7 @@ if (isset($_POST['signupSubmit'])) {
         <label for="confirmPassword">Confirm Password:</label>
         <input type="password" name="confirmPassword" id="confirmPassword" required><br><br>
 
-        <input type="submit" name="signupSubmit" value="Sign Up">
+        <input type="submit" name="signupSubmit" value="  Sign Up  ">
     </form>
 </body>
 </html>

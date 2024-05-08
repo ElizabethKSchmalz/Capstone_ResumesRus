@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,38 +12,56 @@
   <div class="wrapper">
 
   <div class="sidebar">
-      <a href="index.php"><img src="Images/Logo_1.png" alt="Resumes R Us Logo"></a>
+      <a href="index.php"><h1>Resumes R Us</h1></a>
       <br>
       <br>
       <br>
       <a href="resume.php">New Resume</a>
       <br>
       <br>
+      <a href="templates.php">Templates</a>
+      <br>
+      <br>
+      <a href="coverLetter.php">Cover Letter</a>
+      <br>
+      <br>
       <a href="#">Thesaurus</a>
+      <br>
+      <br>
+      <a href="tips.php">Tips</a>
+      <br>
+      <br>
+      <a href="ideas.php">Job Ideas</a>
       <br>
       <br>
       <a href="#">Ideas for artful jobs</a>
       <br>
       <br>
-      <a href="templates.php">Templates</a>
-      <br>
-      <br>
-      <a href="#">Job Ideas</a>
-    </div>
-
-    <div class="header">
-      <a href="index.php"><img src="Images/Logo_2.png" alt="Resumes R Us Logo"></a>
-      <br>
-      <a href="login.php">Login</a>
       <a href="#">Make a Change</a>
-      <a href="#">Tips</a>
-      <a href="#">Cover Letter</a>
+
+      <div>
+        <?php
+
+          if (isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true) {
+              // User is logged in
+              ?>
+              <a href="logout.php">Logout</a> 
+              <?php
+          } else {
+              // User is not logged in 
+              ?>
+              <a href="login.php">Login&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;</a>
+              <a href="signup.php">Sign Up</a>
+              <?php
+          }
+        ?>
+      </div>
     </div>
 
     <div class="mainContent">
       <div>
       <h1>TEMPLATES</h1>
-      <a href="/Resume1/Resume.html">Click here</a
+      <a href="/Resume1/Resume.html">Click here</a>
       </div>
     </div>
 
