@@ -2,7 +2,7 @@
 
 Your one-stop shop for crafting the perfect resume!
 
-Website Live: *********
+Website Live: [ResumesRUs.com](http://resumesrus.wuaze.com/index.php)
 
 ## Description
 
@@ -20,7 +20,7 @@ ResumesRUs takes the stress out of resume building. Our web-based app offers:
 
 ## Getting Started
 
-1. Visit ************
+1. Visit [ResumesRUs.com](http://resumesrus.wuaze.com/index.php)
 2. Create your free account!
 3. Browse templates and tips to get those ideas flowing.
 4. Build your resume with our easy-to-use tools.
@@ -29,4 +29,4 @@ ResumesRUs takes the stress out of resume building. Our web-based app offers:
 
 * **[Braden Pick] ([https://github.com/bpick1])**
 * **[Elizabeth Schmalz] ([https://github.com/ElizabethKSchmalz])**
-* **[Aiden Niblett] ([https://github.com/AidanNiblett])** 
+* **[Aidan Niblett] ([https://github.com/AidanNiblett])** 
