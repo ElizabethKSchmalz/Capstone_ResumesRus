@@ -167,6 +167,17 @@ textarea {
   float: right;
 }
 
+#resume {
+  background-color: white;
+  border: 3px solid black;
+  box-shadow: black 3px 3px 10px;
+  width: 18.6cm;
+  height: 25.7cm;
+  margin: 2cm auto;
+  padding: 1cm;
+  font-family: Arial, sans-serif;
+}
+
 #topInfo {
   border-top: 1px solid black;
   padding-top: 50px;
@@ -192,6 +203,7 @@ textarea {
   font-size: 12px;
 }
 
+
 #letterForm {
   float: left;
 }
@@ -200,3 +212,58 @@ textarea {
   margin: 1.4rem 2.1rem;
 }
 
+#searchButton {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#results {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#wordInput {
+  padding: 10px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.thBody {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+#results ul {
+  column-count: 3;
+  padding-left: 300px;
+
+}
+
+.experiences {
+  margin-bottom: 20px;
+}
+
+.experience-item {
+  border: 1px solid #ddd; 
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#schoolName {
+    font-size: 18px; 
+    font-weight: bold; 
+    color: #333; 
+    margin-bottom: 10px; 
+    margin-left: -1px;
+}
+
+.workDesc {
+  font-size: 14px;
+}

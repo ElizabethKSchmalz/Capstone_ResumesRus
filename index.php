@@ -1,4 +1,5 @@
 <?php session_start(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,7 +30,7 @@
       <a href="coverLetter.php">Cover Letter</a>
       <br>
       <br>
-      <a href="#">Thesaurus</a>
+      <a href="thesaurus.php">Thesaurus</a>
       <br>
       <br>
       <a href="tips.php">Tips</a>
