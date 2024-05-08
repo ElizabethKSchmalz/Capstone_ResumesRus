@@ -128,6 +128,17 @@ textarea {
   font-family: Arial, sans-serif;
 }
 
+#resume {
+  background-color: white;
+  border: 3px solid black;
+  box-shadow: black 3px 3px 10px;
+  width: 18.6cm;
+  height: 25.7cm;
+  margin: 2cm auto;
+  padding: 1cm;
+  font-family: Arial, sans-serif;
+}
+
 #topInfo {
   border-top: 1px solid black;
   padding-top: 50px;
@@ -185,4 +196,26 @@ textarea {
   column-count: 3;
   padding-left: 300px;
 
+}
+
+.experiences {
+  margin-bottom: 20px;
+}
+
+.experience-item {
+  border: 1px solid #ddd; 
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#schoolName {
+    font-size: 18px; 
+    font-weight: bold; 
+    color: #333; 
+    margin-bottom: 10px; 
+    margin-left: -1px;
+}
+
+.workDesc {
+  font-size: 14px;
 }
