@@ -46,22 +46,7 @@ if(isset($_POST['download'])) {
     require('pdfForResume.php');
     exit();
 }
-?>
-<?php
-session_start(); 
 
-if (isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true) {
-    // User is logged in
-    ?>
-     <a href="logout.php">Logout</a> 
-    <?php
-} else {
-    // User is not logged in 
-    ?>
-    <a href="login.php">Login</a>
-    <a href="signup.php">Sign Up</a>
-    <?php
-}
 ?>
 <!DOCTYPE html>
 <html lang="en">

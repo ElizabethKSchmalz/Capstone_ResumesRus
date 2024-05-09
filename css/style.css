@@ -171,11 +171,12 @@ textarea {
   background-color: white;
   border: 3px solid black;
   box-shadow: black 3px 3px 10px;
-  width: 18.6cm;
+  width: 18cm;
   height: 25.7cm;
-  margin: 2cm auto;
+  margin-left: 400px;
   padding: 1cm;
   font-family: Arial, sans-serif;
+  
 }
 
 #topInfo {
@@ -225,6 +226,7 @@ textarea {
   margin-top: 20px;
   font-size: 18px;
   line-height: 1.5;
+  color: white;
 }
 
 #wordInput {
@@ -266,4 +268,9 @@ textarea {
 
 .workDesc {
   font-size: 14px;
+}
+
+#email {
+  width: 105%;
+  height: 35px;
 }

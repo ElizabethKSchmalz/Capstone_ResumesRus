@@ -3,8 +3,6 @@ session_start(); // Start or resume a session
 require 'sanitize.php';
 require 'dbConnect.php';
 require 'callQuery.php';
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
 
 $signupSubmit = sanitizeString(INPUT_POST, 'signupSubmit');
 
@@ -56,6 +54,7 @@ if (isset($_POST['signupSubmit'])) {
 
         } catch (PDOException $ex) {
             $pdo->rollBack();
+            
             error_log("Database Error: " . $ex->getMessage()); 
             echo "Error creating account. Please try again."; 
 

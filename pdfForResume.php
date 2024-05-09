@@ -28,8 +28,8 @@ for ($i = 0; $i < count($letterContent); $i++) {
 // Create HTML and inline CSS for cover letter
 $html = "
 <header id=\"topInfo\">
-    <h1>{$name}</h1>
     <br>
+    <h1>{$name}</h1>
     <p>{$address}</p>
     <p>Email: {$email}</p>
     <p>Phone: {$pNumber}</p>
@@ -37,14 +37,14 @@ $html = "
 </header>
 <hr>
 <section id=\"education\">
-  <h2>Education</h2>
+  <h2 style=\"text-align: center;\">Education</h2>
   <h3 id=\"schoolName\">{$schoolName}</h3>
   <p><strong>Degree:</strong> {$degree}</p>
   <p><strong>Field of Study:</strong> {$fieldOfStudy}</p>
   <p><strong>Duration:</strong> {$eduStartDate} - {$eduEndDate}</p>
 </section>
 <section id=\"experience\">
-    <h2>Work Experience</h2>
+    <h2 style=\"text-align: center;\">Work Experience</h2>
     ";
   for ($i = 0; $i < count($cNames); $i++) {
    $html .="
