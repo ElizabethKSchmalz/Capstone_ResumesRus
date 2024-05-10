@@ -1,4 +1,5 @@
 <?php 
+session_start();
 // Bring in the sanitization method
 require "sanitize.php"; 
 

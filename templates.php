@@ -43,7 +43,7 @@ if (isset($_POST['submit']) || isset($_POST['download'])) {
 
 // Bring in pdf code if download was pressed
 if(isset($_POST['download'])) {
-    require('generate_pdf.php');
+    require('pdfForResume.php');
     exit();
 }
 ?>

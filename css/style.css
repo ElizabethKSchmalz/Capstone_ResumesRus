@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: 'Toysans';
   src: url('../Fonts/Toysans.ttf') format('truetype');
@@ -179,9 +178,9 @@ textarea {
   background-color: white;
   border: 3px solid black;
   box-shadow: black 3px 3px 10px;
-  width: 18.6cm;
+  width: 18cm;
   height: 25.7cm;
-  margin: 2cm auto;
+  margin-left: 400px;
   padding: 1cm;
   font-family: Arial, sans-serif;
   float: right;
@@ -239,6 +238,7 @@ textarea {
   margin-top: 20px;
   font-size: 18px;
   line-height: 1.5;
+  color: white;
 }
 
 #wordInput {
@@ -307,4 +307,9 @@ textarea {
   color: #1b2b47;
   font-family: "Toysans";
   font-size: x-large;
+}
+
+#email {
+  width: 105%;
+  height: 35px;
 }
