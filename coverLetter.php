@@ -28,9 +28,6 @@ if(isset($_POST['download'])) {
     exit();
 }
 ?>
-<?php
-session_start();
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -77,7 +74,7 @@ session_start();
     <div class="mainContent">
 
       <div id="letterForm">
-        <h2>Cover Letter</h2>
+        <h1>Cover Letter</h1>
 
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
 
