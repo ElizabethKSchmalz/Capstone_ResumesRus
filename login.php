@@ -88,6 +88,8 @@ if (isset($clickIt)) {
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+
+        <a href="index.php"><h1 id="topLeftHeader">Resumes R Us</h1></a>
         <h2 id="myh2">Please login to make your resume!</h2>
         
         <form action="" method="post">
