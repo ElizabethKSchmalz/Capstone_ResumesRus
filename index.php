@@ -1,5 +1,6 @@
-<?php session_start(); ?>
-
+<?php
+  session_start(); 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,14 +18,11 @@
   <div class="wrapper">
 
     <div class="sidebar">
-      <a href="index.php"><h1>Resumes R Us</h1></a>
+      <a href="index.php" id="logoFont"><h1>Resumes R Us</h1></a>
       <br>
       <br>
       <br>
-      <a href="resume.php">New Resume</a>
-      <br>
-      <br>
-      <a href="templates.php">Templates</a>
+      <a href="templates.php">New Resume</a>
       <br>
       <br>
       <a href="coverLetter.php">Cover Letter</a>
@@ -34,68 +32,34 @@
       <br>
       <br>
       <a href="tips.php">Tips</a>
-      <br>
-      <br>
-      <a href="ideas.php">Job Ideas</a>
-      <br>
-      <br>
-      <a href="#">Ideas for artful jobs</a>
-      <br>
-      <br>
-      <a href="#">Make a Change</a>
-
       <div>
-        <?php
-
+        <?php 
           if (isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true) {
-              // User is logged in
-              ?>
-              <a href="logout.php">Logout</a> 
-              <?php
+            // User is logged in
+            ?>
+            <a href="logout.php">Logout</a> 
+            <?php
           } else {
-              // User is not logged in 
-              ?>
-              <a href="login.php">Login&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;</a>
-              <a href="signup.php">Sign Up</a>
-              <?php
-          }
-        ?>
+            // User is not logged in 
+            ?>
+            <a href="login.php">Login | </a>
+            <a href="signup.php">Sign Up</a> 
+            <?php }?>
       </div>
     </div>
 
     <div class="mainContent">
-      <div>
-        <h1>Welcome to <div id="logoFont">Resumes R Us!</div></h1>
-        <h3>Top ten ways to get the job</h3>
-        <ol>
-          <li>Dress like a bunny</li>
-          <li>Use dance moves to impress them</li>
-          <li>Eat a mummy</li>
-          <li>Wear shoes four sizes to big</li>
-        </ol>
-        <p>*Other fun information*</p>
-      </div>
-      <div>
-        <h3>How to get a SugarMama and other ways to fill in the job gap.</h3>
-        <p>Go where they go to wine and chocolate shops, start conversations. Once conversations happen try to make a friendship</p>
-      </div>
-      <div>
-        <h3>Advice Column</h3>
-        <p>How to tell your boss they are a whale</p>
-        <p>~~~~~~~~~~~~~~</p>
-        <p>~~~~~~~~~~~~~~</p>
-        <p>~~~~~~~~~~~~~~</p>
-        <p>~~~~~~~~~~~~~~</p>
-        <p>~~~~~~~~~~~~~~</p>
-        <p>~~~~~~~~~~~~~~</p>
-        <p>~~~~~~~~~~~~~~</p>
-      </div>
+      <h1>Welcome to Resumes R Us!</h1>
+      <p>Are you ready to create a standout resume that gets noticed by employers? 
+        Look no further! <span id="logoFont">Resumes R Us</span> is your one-stop destination for crafting professional 
+        resumes that highlight your skills and experience.</p>
+      <p>With our easy to use resume builder, built-in thesaurus for choosing the perfect words, 
+        and tips on resume writing, you'll have everything you need to land your dream job.</p>
+      <p>Get started today and take the first step towards a successful career!</p>
+
+      <a href="templates.php"><button id="resumeButton"><p>Make my Resume!</p></button></a>
 
     </div>
-
-    <footer>
-      <h2>*Ads for how to be your best self*</h2>
-    </footer>
 
   </div>
 

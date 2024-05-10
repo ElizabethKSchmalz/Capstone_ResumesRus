@@ -41,6 +41,7 @@ html, body {
 
 .mainContent {
   overflow-x: auto;
+  overflow-y: auto;
   margin-left: 18%;
   background-color: white;
   font-family: 'Times New Roman', Times, serif;
@@ -120,6 +121,12 @@ form button:hover {
   margin: 2rem 0 1rem;
 }
 
+.mainContent p {
+  margin: 2rem;
+  color: #1b2b47;
+  font-size: large;
+}
+
 h1 {
   font-family: "Toysans";
   color: white;
@@ -176,7 +183,7 @@ textarea {
   margin-left: 400px;
   padding: 1cm;
   font-family: Arial, sans-serif;
-  
+  float: right;
 }
 
 #topInfo {
@@ -208,6 +215,11 @@ textarea {
 #letterForm {
   float: left;
 }
+
+#letterForm h1 {
+  margin: 2rem 2rem;
+}
+
 #topLeftHeader {
   position: absolute;
   margin: 1.4rem 2.1rem;
@@ -238,13 +250,12 @@ textarea {
 
 .thBody {
   font-family: Arial, sans-serif;
-  margin: 20px;
   text-align: center;
 }
 
 #results ul {
   column-count: 3;
-  padding-left: 300px;
+  padding-left: 150px;
 
 }
 
@@ -268,6 +279,34 @@ textarea {
 
 .workDesc {
   font-size: 14px;
+}
+
+#resumeButton {
+  margin-top: 40px;
+  margin-left: 28rem;
+  border: 3px solid #1b2b47;
+  color: #1b2b47;
+  padding: 25px 50px;
+  border-radius: 10px;
+}
+
+#resumeButton:hover {
+  border-color: white;
+  background-color: #1b2b47;
+}
+
+#resumeButton:active {
+  background-color: #141f33;
+}
+
+#resumeButton:hover p {
+  color: white;
+}
+
+#resumeButton p {
+  color: #1b2b47;
+  font-family: "Toysans";
+  font-size: x-large;
 }
 
 #email {

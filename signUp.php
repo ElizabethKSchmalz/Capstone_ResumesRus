@@ -77,7 +77,7 @@ if (isset($_POST['signupSubmit'])) {
 </head>
 <body>
     <a href="index.php"><h1 id="topLeftHeader">Resumes R Us</h1></a>
-    <h2>Create your <div id="logoFont">Resumes R Us</div> account!</h2>
+    <h2>Create your <span id="logoFont">Resumes R Us</span> account!</h2>
 
     <form action="" method="post"> <label for="firstName">First Name:</label>
         <input type="text" name="firstName" id="firstName" required><br><br>
