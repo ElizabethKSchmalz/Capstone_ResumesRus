@@ -2,8 +2,11 @@
 // Bring in the sanitization method
 require "sanitize.php"; 
 
-// Declare variables for the cover letter and assign them to an empty string
-$name = $address = $email = $pNumber = $date = $managerName = $cName = $cAddress = "";
+// Declare variables for the resume and assign them to an empty string
+$name = $address = $email = $pNumber = $startDate1 = $endDate1 = $cName1 = $cAddress1 = $schoolName = $degree = $fieldOfStudy = $eduStartDate = $eduEndDate = '';
+
+$cNames = $cAddresses = $startDates = $endDates = $jobTitles = [];
+$letterContent = null;
 
 
 function sanitizeValue($value) {
