@@ -174,6 +174,10 @@ textarea {
   float: right;
 }
 
+#coverLetter p {
+  margin: 0;
+}
+
 #resume {
   background-color: white;
   border: 3px solid black;
@@ -184,6 +188,10 @@ textarea {
   padding: 1cm;
   font-family: Arial, sans-serif;
   float: right;
+}
+
+#resume p {
+  margin: 0;
 }
 
 #topInfo {
