@@ -101,7 +101,7 @@ if (isset($clickIt)) {
             <br><br>
             
             <input type="submit" name="clickIt" value="  Log In  ">
-            <a href="signup.php"><input type="button" name="signUp" value="  Sign Up  "></a>
+            <a href="signUp.php"><input type="button" name="signUp" value="  Sign Up  "></a>
         </form>
     </body>
 </html>
